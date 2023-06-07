@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="root">
+  <textarea class="content" placeholder="粘贴或者输入需要替换的文字" value="{{inputValue}}" bindinput="bindinput"></textarea>
+  <view class="btnRoot">
+    <view class="btn" bindtap="etozTap">符号英转中</view>
+    <view class="btn" bindtap="ztoeTap">符号中转英</view>
+    <view class="btn" bindtap="wrapTap">序号换行</view>
+  </view>
+  <view class="copyBtn" bindtap="copyTap">复制文本</view>
+</view>
